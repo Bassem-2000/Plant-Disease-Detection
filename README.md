@@ -13,7 +13,7 @@ These data are the beginning of an on-going, crowdsourcing effort to enable comp
 ## Installation Instructions:
 - I have provided a Txt file that contains all the libraries that you need to run the notebook the file name is **"requirements.txt"** and also provides **"conda.yaml"** these two files for the final model.
 - If you want to use mlflow and see the experiment tracking I did, you can use this command in cmd after activating the environment **"mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0 --port 5000"** before this you should download the database and the artifacts file.
-- just download the dataset from this **[Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)** then download the repo and here you are ready to run the code or you can use the model.h5 instead of all the steps but unfortunately the files all can not be uploaded to GitHub due to size of them so I have attached a link **[link](https://drive.google.com/drive/folders/15vKH-LhAl14TOOTaxZgSVMH-wQ3Q5wcP?usp=sharing)** that you can use to download all others files that don't exist here.
+- just download the dataset from this **[Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)** then download the repo and here you are ready to run the code or you can use the model.h5 instead of all the steps.
 
 ## Usage Guide:
 - I put the image paths and labels from the mat file into a dataframe to make it easier for me here is the snippet
