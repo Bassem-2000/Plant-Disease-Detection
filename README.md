@@ -16,7 +16,7 @@ These data are the beginning of an on-going, crowdsourcing effort to enable comp
 - just download the dataset from this **[Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)** then download the repo and here you are ready to run the code or you can use the model.h5 instead of all the steps.
 
 ## Usage Guide:
-- I put the image paths and labels from the mat file into a dataframe to make it easier for me here is the snippet
+- I put the image paths and label into a dataframe to make it easier for me here is the snippet
   
  ![dataframe](https://github.com/Bassem-2000/Images/blob/main/dataframe.png?raw=true)
  
