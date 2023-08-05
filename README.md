@@ -18,30 +18,30 @@ These data are the beginning of an on-going, crowdsourcing effort to enable comp
 ## Usage Guide:
 - I put the image paths and label into a dataframe to make it easier for me here is the snippet
   
- ![dataframe](https://github.com/Bassem-2000/Images/blob/main/dataframe.png?raw=true)
+ ![dataframe](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/dataframe.png?raw=true)
  
 - after that, I used ImageDataGenerator from keras to load the data by applying some data augmentation to the training dataset here is the snippet
   
- ![ImageDataGenerator](https://github.com/Bassem-2000/Images/blob/main/ImageDataGenerator.png?raw=true)
+ ![ImageDataGenerator](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/ImageDataGenerator.png?raw=true)
 
 ## Model Architecture:
 - I used the Resnet Architecture and used different fine-tuning and architecture but my final model and architecture are done by applying fine-tuning to the final layers as I made the last 15 layers nontrainable and add some neurons here is the snippet for the model summary
   
- ![Architecture](https://github.com/Bassem-2000/Images/blob/main/Architecture.png?raw=true)
+ ![Architecture](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/Architecture.png?raw=true)
 
 
 ## Evaluation:
 - I used different approaches to test the performance of the architecture and the model like accuracy, loss, Recall and Precision all of these approaches were used on every architecture I did and you can see it from the mlflow experiment tracking you can download the database and files to test it by yourself, here are the final model performance:
   
- ![Accuracy](https://github.com/Bassem-2000/Images/blob/main/accuracy.png?raw=true)
- ![Loss](https://github.com/Bassem-2000/Images/blob/main/Loss.png?raw=true)
- ![Recall](https://github.com/Bassem-2000/Images/blob/main/Recall.png?raw=true)
- ![Precision](https://github.com/Bassem-2000/Images/blob/main/Precision.png?raw=true)
+ ![Accuracy](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/accuracy.png?raw=true)
+ ![Loss](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/Loss.png?raw=true)
+ ![Recall](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/Recall.png?raw=true)
+ ![Precision](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/Precision.png?raw=true)
 
 ## Example:
 - I test the model with a random image and visualize it here you can see the image with the prediction:
 
- ![Example](https://github.com/Bassem-2000/Images/blob/main/Example.png?raw=true)
+ ![Example](https://github.com/Bassem-2000/Plant-Disease-Detection/blob/main/Plants/Example.png?raw=true)
 
 
 ## Contact:
